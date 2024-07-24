@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>اتصال به MetaMask و نمایش موجودی کیف پول</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>اتصال به MetaMask و نمایش موجودی کیف پول</h1>
-    <button id="connectButton">اتصال به MetaMask</button>
-    <p id="account">کیف پول: -</p>
-    <p id="balance">موجودی: -</p>
+    <div class="container">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/240px-MetaMask_Fox.svg.png" alt="MetaMask Logo" class="logo">
+            <h1>اتصال به MetaMask و نمایش موجودی کیف پول</h1>
+        </div>
+        <div class="content">
+            <button id="connectButton" class="button">اتصال به MetaMask</button>
+            <p id="account" class="info">کیف پول: -</p>
+            <p id="balance" class="info">موجودی: -</p>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
     <script>
